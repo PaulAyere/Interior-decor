@@ -44,3 +44,103 @@ body.active {
 section {
   padding: 5rem 9%;
 }
+
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  color: #444;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+.heading span {
+  color: #ed2d34;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 5rem;
+  padding: 1.2rem 3rem;
+  border: 0.2rem solid #444;
+  cursor: pointer;
+  background: none;
+  color: #444;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  border-color: #ed2d34;
+  color: #fff;
+  background: #ed2d34;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: -31rem;
+  height: 100%;
+  width: 30rem;
+  background: black;
+  padding: 2rem;
+  z-index: 1000;
+}
+
+.header.active {
+  left: 0;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  color: white;  
+  font-weight: bolder;
+}
+.header span{
+  color: red;  
+}
+
+.header .navbar {
+  padding: 30% 0;
+}
+
+.header .navbar a {
+  display: block;
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.header .navbar a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-underline-offset: .7rem;
+
+}
+
+.header .share {
+  text-align: center;
+}
+
+.header .share a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: #0000ff;
+  background: #fff;
+  margin: 0 .3rem;
+}
+
+.header .share a:hover {
+  background: #444;
+  color: #fff;
+}
+
+.header .credit {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 3rem;
+  line-height: 1.5;
+}
